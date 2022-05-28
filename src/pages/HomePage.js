@@ -30,8 +30,8 @@ export default function HomePage(props) {
                         <div className="Group">
                         <h1 className="HomeMainText">Camera Work</h1>
                         <div className="GroupInner">
-                        <CameraWorkIcon />
                         <p className="GroupDescription">Little blurb here about services pertaining to this category</p>
+                        <CameraWorkIcon />
                         </div>
                         </div>
 
