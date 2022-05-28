@@ -11,6 +11,7 @@ import ConsultingPage from "./pages/ConsultingPage";
 
 // Components
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/Coding" element={<CodingPage />} />
         <Route path="/Consulting" element={<ConsultingPage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
