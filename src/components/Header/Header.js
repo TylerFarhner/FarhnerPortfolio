@@ -16,12 +16,12 @@ export default function Header(){
                         <li><Link to="Coding">Coding</Link></li>
                         <li><Link to="Consulting">Consulting</Link></li>
                 </ul>
+            </nav>
                 <div className='ExternalIcons'>
                     <a className="ExternalIcon" href="https://www.instagram.com/tyfriedrice/" rel="noreferrer" target="_blank"><InstagramIcon /></a>
                     <a className="ExternalIcon" href="https://github.com/TylerFarhner" rel="noreferrer" target="_blank"><GithubIcon /></a>
                     <a className="ExternalIcon" href="https://www.linkedin.com/in/tyfarhner/" rel="noreferrer" target="_blank"><ResumeIcon /></a>
                 </div>
-            </nav>
         </header>
     )
 }
