@@ -1,38 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: rgba(255, 255, 255, 0.705);
+}
+
+.BoxLink {
   color: white;
+  border: 1px solid white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 0 10px 0 10px;
+  box-shadow: 0px 1px 2px 1px black;
 }
 
-.App-link {
-  color: #61dafb;
+.BoxLink:hover {
+  color: rgba(255, 255, 255, 0.582);
+  color: black;
+  text-decoration: none;
+  background-color: whitesmoke;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.HomePage {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Page {
+  display: flex;
+  flex-direction: column;
+}
+
+.tylerFarhner {
+  font-family: 'Yesteryear', cursive;
+  font-size: 100px;
+}
+
+.externalLinks {
+  display: flex;
+  text-decoration: none;
+  font-size: large;
+  color: white;
+  justify-content: space-evenly;
+}
+
+.externalLinks:hover {
+  cursor: pointer;
+}
+
+Footer {
+  color: rgba(255, 99, 71, 0.452);
+}
+
+/* ABOUT PAGE */
+
+.AboutPage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.profileImage {
+  border-radius: 50%;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+/* GALLERY PAGE */
+
+.GalleryPage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-block {
+  display: flex;
+  max-width: 1024px;
+  max-height: 788px;
+}
+
+
+.ExternalIcon {
+  margin: 10px;
 }
