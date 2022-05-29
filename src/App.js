@@ -13,10 +13,13 @@ import ConsultingPage from "./pages/ConsultingPage";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
+import Navbar from './components/Navbar/Navbar'
+
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
+      <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/About" element={<AboutPage />} />
