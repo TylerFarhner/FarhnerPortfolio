@@ -1,3 +1,5 @@
+import '../StyleSheets/AboutPage.css'
+
 import ProfileIcon from "../components/Icons/ProfileIcon"
 
 export default function AboutPage(props) {
