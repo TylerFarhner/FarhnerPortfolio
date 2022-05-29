@@ -6,9 +6,6 @@ export default function CameraWorkPage(props) {
     return (
         <div className="CameraWorkPage">
             <main className="Page">
-                <div className="Header">
-                    <h1>Header</h1>
-                </div>
                 <div className="Body">
                     <div className="CameraTopDiv">
                         <CameraWorkIcon />
