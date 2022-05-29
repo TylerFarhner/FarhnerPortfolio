@@ -2,6 +2,7 @@ import SoftwareDevIcon from "../components/Icons/SoftwareDevIcon"
 import CameraWorkIcon from "../components/Icons/CameraWorkIcon"
 import ConsultingIcon from "../components/Icons/ConsultingIcon"
 
+
 export default function HomePage(props) {
     return (
         <div className="HomePage">
