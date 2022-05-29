@@ -1,16 +1,16 @@
+import ProfileIcon from "../components/Icons/ProfileIcon"
+
 export default function AboutPage(props) {
     return (
         <div className="AboutPage">
             <main className="Page">
-                <div className="Header">
-                    <h1>Header</h1>
-                </div>
                 <div className="Body">
                     <div className="AboutTopDiv">
-                        <p className="AboutTopText">About Top Text</p>
+                        <ProfileIcon />
+                        <p className="AboutTopText">Who am I?</p>
                     </div>
                     <div className="AboutMainDiv">
-                        <p className="AboutMainText">About Main Text</p>
+                        <p className="AboutMainText">Description about myself, etc, you know the lame old drill yada yada</p>
                     </div>
                 </div>
             </main>

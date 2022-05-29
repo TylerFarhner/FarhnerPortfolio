@@ -34,8 +34,6 @@
   justify-content: center;
   align-items: center;
   color: white;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .Page {
@@ -106,4 +104,8 @@ Footer {
   justify-content: space-between;
   display: flex;
   align-items: center;
+}
+
+.Group {
+  margin-bottom: 10%;
 }
