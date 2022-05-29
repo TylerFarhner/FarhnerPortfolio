@@ -101,11 +101,12 @@ Footer {
 
 .GroupInner {
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   display: flex;
   align-items: center;
 }
 
 .Group {
   margin-bottom: 10%;
+  margin-top: 10%;
 }
