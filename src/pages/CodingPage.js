@@ -14,27 +14,22 @@ export default function CodingPage(props) {
                         <p>High level overview of tech experience and offered services, etc</p>
                     </div>
                     <div className="CodingMainDiv">
-                        <p className="CodingMainText">Coding Main Text</p>
                         {/* SOFTWARE DEV */}
-                        <div className="Group">
-                        <div className="GroupInner">
-                        <div>
-                        <h2 className="HomeMainText">Mobile Applications</h2>
-                        <CellPhoneIcon />
-                        </div>
-                        <p className="GroupDescription">Description of Mobile based Projects, examples, etc</p>
-                        </div>
+                        <div className="CodingGroup">
+                                <div>
+                                    <h2 className="GroupMainText">Mobile Applications</h2>
+                                    <CellPhoneIcon />
+                                </div>
+                                <p className="GroupDescription">Description of Mobile based Projects, examples, etc</p>
                         </div>
 
                         {/* CAMERA WORK */}
-                        <div className="Group">
-                        <div className="GroupInner">
-                        <p className="GroupDescription">Description of Web based Projects, examples, etc</p>
-                        <div>
-                        <h2 className="HomeMainText">Websites</h2>
-                        <ComputerIcon />
-                        </div>
-                        </div>
+                        <div className="CodingGroup">
+                                <div>
+                                    <h2 className="GroupMainText">Websites</h2>
+                                    <ComputerIcon />
+                                </div>
+                                <p className="GroupDescription">Description of Web based Projects, examples, etc</p>
                         </div>
                     </div>
                 </div>
