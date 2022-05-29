@@ -22,7 +22,39 @@ function Navbar() {
           <Link to='#' className='menu-bars'>
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
-        </div>
+        
+        <div className="ExternalIcons">
+            {/* INSTAGRAM */}
+            <a
+              className="ExternalIcon"
+              href="https://www.instagram.com/tyfriedrice/"
+              rel="noreferrer"
+              target="_blank"
+              >
+              <InstagramIcon />
+            </a>
+
+            {/* GITHUB */}
+            <a
+              className="ExternalIcon"
+              href="https://github.com/TylerFarhner"
+              rel="noreferrer"
+              target="_blank"
+              >
+              <GithubIcon />
+            </a>
+
+            {/* RESUME */}
+            <a
+              className="ExternalIcon"
+              href="https://www.dropbox.com/s/xsvgrztq8hmj72b/FarhnerResume.pdf?dl=0"
+              rel="noreferrer"
+              target="_blank"
+              >
+              <ResumeIcon />
+            </a>
+          </div>
+              </div>
         
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-menu-items' onClick={showSidebar}>
@@ -42,37 +74,7 @@ function Navbar() {
               );
             })}
           </ul>
-          <div className="ExternalIcons">
-        {/* INSTAGRAM */}
-        <a
-          className="ExternalIcon"
-          href="https://www.instagram.com/tyfriedrice/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <InstagramIcon />
-        </a>
-
-        {/* GITHUB */}
-        <a
-          className="ExternalIcon"
-          href="https://github.com/TylerFarhner"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <GithubIcon />
-        </a>
-
-        {/* RESUME */}
-        <a
-          className="ExternalIcon"
-          href="https://www.dropbox.com/s/xsvgrztq8hmj72b/FarhnerResume.pdf?dl=0"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <ResumeIcon />
-        </a>
-      </div>
+          
         </nav>
         
       </IconContext.Provider>

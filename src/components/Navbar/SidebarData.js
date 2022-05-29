@@ -1,4 +1,9 @@
 import React from 'react';
+
+import InstagramIcon from "../Icons/InstagramIcon";
+import GithubIcon from "../Icons/GithubIcon";
+import ResumeIcon from "../Icons/ResumeIcon";
+
 export const SidebarData = [
   {
     title: 'Home',
@@ -23,6 +28,7 @@ export const SidebarData = [
   {
     title: 'About',
     path: '/About',
+    icon: <ResumeIcon />,
     cName: 'nav-text'
   },
 ];

@@ -95,6 +95,11 @@ Footer {
   max-height: 788px;
 }
 
+.ExternalIcons {
+  display: flex;
+  justify-content: end;
+  top: 0;
+}
 
 .ExternalIcon {
   margin: 10px;
